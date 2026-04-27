@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h2>
+        Quick Quote Generator
+    </h2>
+
+    <p>
+        Select your currency
+    </p>
+
+    <select id="selCurrency">
+        <option>$ USD</option>
+        <option>£ GBP</option>
+        <option>€ EUR</option>
+    </select>
+
+    <span>
+        <input id="itemInput" placeholder="Description">
+        <input type="number" id="priceInput" placeholder="Price">
+        <button id="addItemBtn">
+            Add to quote
+        </button>
+    </span>
+
+    <p id="notice" style="display: none"></p>
+
+    <div id="fullOutput">
+        <span id="textOutput1">
+
+        </span>
+        ---------------------------- <br>
+        <span id="totalQuoteOutput">
+            Total Quote: N/A
+        </span>
+    </div>
+
+    <span>
+        <button id="deleteAllBtn">
+            Delete all items
+        </button>
+        <button id="downloadBtn">
+            Download Quote
+        </button>
+    </span>
+
+    <span>
+        <select id="selItem"></select>
+        <button id="deleteItemBtn">
+            Delete item
+        </button>
+    </span>
+
+</body>
+<script src="script.js"></script>
+</html>

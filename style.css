@@ -1,0 +1,103 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background:#f4f6f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    font-size: 30px;
+    margin: -2px;
+}
+
+#notice {
+    color: red;
+    font-size: 14px;
+    margin: 1px;
+}
+
+input {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+input:hover {
+    border-color: #ccc;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05)    
+}
+
+input:focus {
+    border-color: #ccc;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1)        
+}
+
+#priceInput {
+    width: 50px;
+}
+
+select {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+#selCurrency {
+    margin-top: -14px;
+    margin-bottom: 18px;    
+}
+
+select:hover {
+    cursor: pointer;
+    border-color: #ccc;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: white;
+    margin: 6px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 120px;
+    padding: 6px;   
+}
+
+#addItemBtn {
+    width: 100px;
+}
+
+button:hover {
+    background-color: #e7e7e7;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+#textOutput1 {
+    font-family: monospace;
+    font-size: 18px;
+}
+
+#totalQuoteOutput {
+    font-family: monospace;
+    font-size: 22px;
+}
+
+#fullOutput {
+    text-align: center;
+    vertical-align: middle;
+    background-color: white;
+    width: 90%;
+    height: 40%;
+    max-height: 65%;
+    overflow-y: auto;
+    margin: 6px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
